@@ -1,0 +1,13 @@
+.contact{
+    width: 60%;
+    background-color:#ffc107;
+    color: white;
+    text-align: center;
+    padding: 35px 0;
+    border-radius: 50px 5px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

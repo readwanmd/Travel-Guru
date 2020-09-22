@@ -1,0 +1,28 @@
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hotel-section{
+    display: flex;
+    align-items: center;
+}
+
+.hotel-section .hotel-image {
+    width: 220px;
+}
+
+.ratingsAndPrice{
+    display: flex;
+    justify-content: space-between;
+}
+
+.retings-icon{
+    width: auto;
+    height: 15px;
+}
+
+.map{
+    display: flex;
+}

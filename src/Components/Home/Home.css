@@ -1,0 +1,55 @@
+.Home-Component {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.ibb.co/4g45Yzz/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-section {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-section h1 {
+    font-size: 4em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.place {
+    height: 250px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    position: relative;
+}
+
+.place h5 {
+    position: absolute;
+    bottom: 0;
+}
+
+.place-1 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(https://i.ibb.co/zrrR1v3/Sajek.png);
+}
+
+.place-2 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(https://i.ibb.co/3mbbqWV/Sreemongol.png);
+}
+
+.place-3 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(https://i.ibb.co/DLhcBwH/sundorbon.png);
+}
+
+.place:hover {
+    border: 3px solid #ffbe18;
+    border-radius: 10px;
+    transform: translateY(-10px)
+}
